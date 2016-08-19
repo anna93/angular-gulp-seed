@@ -4,7 +4,7 @@ var gulp = require('gulp'),
     uglify = require('gulp-uglify'),
     minifyCss = require('gulp-minify-css');
 
-gulp.task('default', function () {
+gulp.task('uglifyInject', function () {
     return gulp.src('src/index.html')
         .pipe(useref())
         .pipe(gulpif('*.js', uglify()))
@@ -16,3 +16,5 @@ gulp.task('moveResourcesToDist', function() {
     return gulp.src('src/resources/images/**/*')
         .pipe(gulp.dest('dist/resources/images'));
 });
+
+gulp.task('dist',['uglifyInject','moveResourcesToDist']);
