@@ -1,4 +1,4 @@
-# Angular Seed using <img alt="gulp" src="https://raw.githubusercontent.com/gulpjs/artwork/master/gulp-2x.png" height="80"/> 
+# Angular Seed using <img alt="gulp" src="http://i.imgur.com/YueGwfE.png" height="80"/>
 
 ## App Structure
 
@@ -100,3 +100,6 @@ you can serve dist/ using
 2. Continuous css preprocessor compilation using gulp
 3. provision to upload to s3 bucket while commiting
 4. modify useref to append timestamp/commit-stamp for better http and cdn caching.
+
+---
+Please feel free to contribute to this project.
