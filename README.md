@@ -2,7 +2,7 @@
 
 ## App Structure
 
-Let's chuck it! I am sick of researching about the most correct way of organizing my angular app, specifically the directory structure of the app. I have looked at [John Papa's Angular1 style guide](https://github.com/johnpapa/angular-styleguide/tree/master/a1#modules) and I feel that the following structure is good enough. If you have any suggestions kindly add an issue with this repository or better still, submit a pull request.
+This repo follows [John Papa's Angular1 style guide](https://github.com/johnpapa/angular-styleguide/tree/master/a1#modules) . If you have any suggestions kindly add an issue with this repository or better still, submit a pull request.
 
 ```
 .
